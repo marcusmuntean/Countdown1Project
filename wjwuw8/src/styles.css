@@ -72,6 +72,11 @@ body {
   height: 54px;
 }
 
+.game-info {
+  color: #f84c1e;
+  font-size: 25px;
+}
+
 .board-row:after {
   clear: both;
   content: "";
@@ -83,6 +88,7 @@ body {
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   word-spacing: 3px;
+  color: #394a7f;
 }
 .game {
   display: flex;
