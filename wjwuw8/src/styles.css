@@ -58,22 +58,23 @@ body {
 
 .square {
   background: #fff;
-  border: 1px solid #999;
+  border: 3px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 34px;
+  font-style: italic;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 54px;
+  height: 54px;
 }
 
 .board-row:after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 
