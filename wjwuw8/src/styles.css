@@ -50,6 +50,7 @@ button {
   padding-left: 15px;
   padding-right: 15px;
   font-size: 20px;
+  margin: 5px;
 }
 
 * {
@@ -81,6 +82,7 @@ body {
 .game-info {
   color: #f84c1e;
   font-size: 25px;
+  margin-left: 20px;
 }
 
 .board-row:after {
@@ -99,8 +101,4 @@ body {
 .game {
   display: flex;
   flex-direction: row;
-}
-
-.game-info {
-  margin-left: 20px;
 }
